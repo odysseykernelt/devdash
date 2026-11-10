@@ -1,0 +1,16 @@
+[
+  {"id": "r01", "text": "一口咬掉牛尾巴", "answer": "告", "hint": "「牛」去尾，下添一「口」", "poemLine": "告一片星野"},
+  {"id": "r02", "text": "日月同辉", "answer": "明", "hint": "左日右月", "poemLine": "明处见山海"},
+  {"id": "r03", "text": "七十二小时", "answer": "晶", "hint": "三日相加", "poemLine": "晶透三分光"},
+  {"id": "r04", "text": "上下一体", "answer": "卡", "hint": "上在下上", "poemLine": "卡住旧时光"},
+  {"id": "r05", "text": "半青半紫", "answer": "素", "hint": "各取一半", "poemLine": "素描晚风"},
+  {"id": "r06", "text": "二小姐", "answer": "姿", "hint": "次女", "poemLine": "姿态从容"},
+  {"id": "r07", "text": "十个哥哥", "answer": "克", "hint": "十兄", "poemLine": "克制与锋芒"},
+  {"id": "r08", "text": "八十八", "answer": "米", "hint": "上下八，中间十", "poemLine": "米粒归仓"},
+  {"id": "r09", "text": "人不在其位", "answer": "立", "hint": "位去人旁", "poemLine": "立于灯下"},
+  {"id": "r10", "text": "刀出鞘", "answer": "力", "hint": "刀见一撇", "poemLine": "力透纸背"},
+  {"id": "r11", "text": "守门员", "answer": "闪", "hint": "门里一人", "poemLine": "闪入夜色"},
+  {"id": "r12", "text": "千里挑一，百里挑一", "answer": "伯", "hint": "千人去一，百人留一", "poemLine": "伯仲之间"},
+  {"id": "r13", "text": "一字十三点", "answer": "汁", "hint": "十与三点水", "poemLine": "汁染青梅"},
+  {"id": "r14", "text": "一大二小", "answer": "奈", "hint": "大下有二小", "poemLine": "奈何天蓝"}
+]

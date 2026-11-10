@@ -1,0 +1,84 @@
+[
+  {
+    "group": "Git",
+    "items": [
+      {"t": "git status -sb", "d": "精简查看分支与改动"},
+      {"t": "git log --oneline --graph -20", "d": "图形化近 20 条提交"},
+      {"t": "git diff --stat", "d": "按文件统计改动量"},
+      {"t": "git stash push -m \"msg\"", "d": "暂存当前改动并备注"},
+      {"t": "git branch --sort=-committerdate", "d": "按最近提交排序分支"},
+      {"t": "git rev-list --count @{u}..HEAD", "d": "未推送提交数"},
+      {"t": "git restore --staged <file>", "d": "移出暂存区保留改动"},
+      {"t": "git clean -nd", "d": "预演将被移除的未跟踪文件"}
+    ]
+  },
+  {
+    "group": "PowerShell",
+    "items": [
+      {"t": "Get-ChildItem -Recurse -Filter *.py", "d": "递归找文件"},
+      {"t": "Select-String -Path *.log -Pattern \"ERROR\"", "d": "文本内检索"},
+      {"t": "Get-Process | Sort-Object CPU -Desc | Select -First 10", "d": "CPU 占用前十"},
+      {"t": "Compress-Archive src out.zip", "d": "目录压缩成 zip"},
+      {"t": "Get-Content app.log -Tail 50 -Wait", "d": "跟踪日志尾部"},
+      {"t": "Test-NetConnection host -Port 443", "d": "端口连通性检查"},
+      {"t": "$env:Path -split ';'", "d": "查看 PATH 各项"}
+    ]
+  },
+  {
+    "group": "Regex",
+    "items": [
+      {"t": "^...$", "d": "整行匹配锚点"},
+      {"t": "\\d{4}-\\d{2}-\\d{2}", "d": "日期 2026-10-30 形态"},
+      {"t": "(?<name>\\w+)", "d": "命名捕获组"},
+      {"t": "(?:...)", "d": "非捕获分组"},
+      {"t": "a(?=b)", "d": "正向前瞻：a 后跟 b"},
+      {"t": "[^\\n]+", "d": "不含换行的任意串"},
+      {"t": "\\bword\\b", "d": "整词边界"}
+    ]
+  },
+  {
+    "group": "HTTP",
+    "items": [
+      {"t": "200 / 201 / 204", "d": "成功 / 已创建 / 无内容"},
+      {"t": "301 / 302 / 304", "d": "永久跳转 / 临时跳转 / 未修改"},
+      {"t": "400 / 401 / 403 / 404", "d": "请求有误 / 未认证 / 无权限 / 不存在"},
+      {"t": "409 / 422 / 429", "d": "冲突 / 语义有误 / 请求过频"},
+      {"t": "500 / 502 / 503 / 504", "d": "服务端 / 网关 / 不可用 / 网关超时"},
+      {"t": "ETag + If-None-Match", "d": "条件请求省流量"},
+      {"t": "Cache-Control: no-store", "d": "全程不缓存"}
+    ]
+  },
+  {
+    "group": "Docker",
+    "items": [
+      {"t": "docker ps --format \"table {{.Names}}\\t{{.Status}}\"", "d": "容器清单自定义列"},
+      {"t": "docker logs -f --tail 100 <c>", "d": "跟踪容器日志"},
+      {"t": "docker exec -it <c> sh", "d": "进入容器 shell"},
+      {"t": "docker system df", "d": "查看磁盘占用"},
+      {"t": "docker compose up -d --build", "d": "重建并后台启动"},
+      {"t": "docker image prune", "d": "清理悬空镜像"}
+    ]
+  },
+  {
+    "group": "CSS",
+    "items": [
+      {"t": "display: grid; gap: 12px", "d": "网格布局起手式"},
+      {"t": "clamp(14px, 2vw, 20px)", "d": "流式字号"},
+      {"t": ":focus-visible", "d": "键盘聚焦态样式"},
+      {"t": "prefers-reduced-motion", "d": "尊重减少动态偏好"},
+      {"t": "color-scheme: dark", "d": "声明深色配色"},
+      {"t": "aspect-ratio: 16 / 9", "d": "固定比例容器"}
+    ]
+  },
+  {
+    "group": "快捷键",
+    "items": [
+      {"t": "Ctrl+K", "d": "本应用内打开速查检索"},
+      {"t": "Ctrl+Shift+P", "d": "VS Code 命令面板"},
+      {"t": "Win+Shift+S", "d": "区域截图"},
+      {"t": "Alt+Tab / Win+Tab", "d": "窗口切换 / 任务视图"},
+      {"t": "Ctrl+`", "d": "VS Code 集成终端"},
+      {"t": "F12", "d": "浏览器开发者工具"}
+    ]
+  }
+]

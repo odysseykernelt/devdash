@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 运行日志
+*.log
+
+# 本机运行时数据（含本地路径与个人记录，首次运行自动生成；示例内容见 README 说明）
+data/settings.json
+data/repo_cache.json
+data/github_cache.json
+data/riddle_progress.json
